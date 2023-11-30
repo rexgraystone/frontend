@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 30vmin;
   pointer-events: none;
 }
 
@@ -26,6 +26,116 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.container {
+  padding: 10px;
+  /* background-color: red; */
+  max-width: fit-content;
+  margin: 20px auto;
+}
+
+.btn {
+  max-width: fit-content;
+  border: none;
+  padding: 5px 10px;
+  font-size: 10px;
+  border-radius: 5px;
+}
+
+.update-btn, .delete-btn {
+  max-width: fit-content;
+  font-size: 14px;
+  margin: 0px 8px;
+}
+
+.new-btn {
+  background: #194064;
+  color: white;
+  cursor: pointer;
+  font-size: large;
+}
+
+.new-container {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-container form {
+  color: white;
+  padding: 50px 30px;
+  width: 420px;
+  background-color: #194064;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.new-container form label {
+  font-size: 18px;
+}
+
+.new-container form input {
+  padding: 5px;
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.new-container form .close-btn {
+  color: #194064;
+  background-color: white;
+  margin-left: auto;
+  font-size: 18px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.table-container {
+  margin-top: 50px;
+  border: 1px solid #c9c5c2;
+}
+
+.table-container table thead tr {
+  background-color: #194064;
+}
+
+.table-container table tbody tr {
+  border: 1px solid #c9c5c2;
+}
+
+.table-container table tbody tr td {
+  border-bottom: 1px solid #c9c5c2;
+  min-width: 200px;
+  padding: 7px;
+  text-align: center;
+}
+.table-container table thead tr th {
+  min-width: 200px;
+  color: white;
+  padding: 7px;
+  text-align: center;
+}
+
+.new-msg {
+  textAlign: "center";
+  fontSize: large;
+  padding: 10px;
+  border: black;
+  border-radius: 10px;
 }
 
 @keyframes App-logo-spin {
